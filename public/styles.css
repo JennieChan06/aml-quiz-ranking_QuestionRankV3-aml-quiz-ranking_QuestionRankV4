@@ -113,7 +113,7 @@ header p {
     text-align: center;
     font-weight: 500;
     font-size: 1.1rem;
-    display: flex;
+    display: none; /* 隱藏玩家資訊 */
     justify-content: space-between;
     align-items: center;
     animation: fadeIn 0.5s ease-out;
@@ -135,6 +135,7 @@ header p {
     font-size: 1.8rem;
     box-shadow: 0 4px 15px rgba(17, 153, 142, 0.3);
     animation: fadeIn 0.5s ease-out;
+    display: none !important; /* 強制隱藏分數顯示 */
 }
 
 /* 進度條容器 */
